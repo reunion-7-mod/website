@@ -1,0 +1,69 @@
+﻿/* Tech guarantee polish overrides: sitemap and feature browse lists */
+
+/* Sitemaps are currently only element using "section-grid-5col-near" */
+table.section_section-grid-5col-near li 
+{
+	font-size: .73em
+}
+table.section_section-grid-5col-near li a 
+{
+	color: #666666; 
+}
+table.section_section-grid-5col-near li a:visited 
+{
+	color: #808080;
+}
+
+/* Targeted to get the side-list items in feature pages */
+.containerOneFourthNear .topic_body_full a.link_expandAll,
+.containerOneFourthNear .topic_body_full a.link_collapseAll,
+.containerOneFourthNear .topic_body_full a.link_collapseAll:visited,
+.containerOneFourthNear .topic_body_full a.link_expandAll:visited
+{
+	display: none;
+}
+
+.containerOneFourthNear .topic_body_full div.section div.section p.para,
+.containerOneFourthNear .topic_body_full .lastElement p.para
+{
+	margin-bottom: 10px;
+}
+
+.containerOneFourthNear .topic_body_full div.section div.section p.para span.ui,
+.containerOneFourthNear .topic_body_full .lastElement p.para span.ui
+{
+	margin-top: 15px;
+	display: block;
+}
+
+/* Override for footer content to make sure it stays inside the fixed
+   width area between the Windows and Microsoft logos; provided by ErPierce */
+#FooterCopyright
+{
+	vertical-align: top;
+}
+#FooterLinks
+{
+	display: inline-block; 
+	width: 450px;
+}
+/*
+     FILE ARCHIVED ON 10:12:39 Dec 27, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:32:59 May 08, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.226
+  exclusion.robots: 0.174
+  exclusion.robots.policy: 0.158
+  esindex: 0.028
+  cdx.remote: 23.36
+  LoadShardBlock: 172.578 (3)
+  PetaboxLoader3.datanode: 181.353 (4)
+  load_resource: 91.479
+  PetaboxLoader3.resolve: 52.36
+*/

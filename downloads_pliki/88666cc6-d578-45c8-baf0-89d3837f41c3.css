@@ -1,0 +1,68 @@
+﻿
+div.section_oly-aml-near
+{
+	width:33%; /* change the width from 50% to 1/3 */
+	padding-left: 16px; /* put the padding in the div rather than on each element */
+	padding-top: 10px; /* change the top padding from 16 px to account for extra space in the title text container*/
+}
+
+div.section_oly-aml-far
+{
+	width:33%; /* change the width from 50% to 1/3 */
+	left: 67%; /* change starting postion of the div to the far side of the container */
+	padding-right: 16px; /* adding padding to keep text from hitting edge of container  */
+	padding-top: 10px; /* change the top padding from 16 px to account for extra space in the title text container*/
+}
+
+div.section_oly-aml-center
+{
+	width:33%; /* change the width from 50% to 1/3 */
+	left:33%; /* change starting postion of the div to center within the container */
+	padding-left: 16px; /* put the padding in the div rather than on each element */
+	padding-top: 10px; /* change the top padding from 16 px to account for extra space in the title text container*/
+}
+
+div.section_oly-aml-near ul.unordered li.listItem p.para
+{
+	margin-left: 0px; /* remove the margin on this element as it is now set in the div itself  */
+}
+
+div.section_oly-aml-near p.para, div.section_oly-aml-far p.para, div.section_oly-aml-center p.para
+{
+	margin-left: 0px; /* remove the margin on this element as it is now set in the div itself */
+}
+
+div.section_oly-aml-near h3.title_section, div.section_oly-aml-far h3.title_section, div.section_oly-aml-center h3.title_section
+{
+  font-size:146%; /* Modify the font size of the title element to accomodate design */
+  font-weight:bold; /* Modify the weight of the title element to accomodate design */
+  margin-left:0px; /* remove the margin on this element as it is now set in the div itself */
+}
+
+div.section_oly-aml-light a.navigationLink
+{
+  color:white; /* change color of links for the Light version to White */
+}
+
+
+
+/*
+     FILE ARCHIVED ON 10:12:17 Dec 27, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:30:32 May 08, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.738
+  exclusion.robots: 0.331
+  exclusion.robots.policy: 0.297
+  esindex: 0.013
+  cdx.remote: 35.816
+  LoadShardBlock: 87.148 (3)
+  PetaboxLoader3.datanode: 99.717 (4)
+  load_resource: 64.068
+  PetaboxLoader3.resolve: 31.664
+*/
