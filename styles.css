@@ -102,7 +102,7 @@ body {
     padding-bottom: 15px;
 }
 
-.content-cards, .content-cards-main {
+.content-cards, .content-cards-download {
     border-top: 1px solid #e4e4e4;
     margin: 0px 50px;
     margin-top: 26px;
@@ -110,10 +110,11 @@ body {
     width: 628px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 150px;
 }
 
-.content-cards-main {
-    padding-bottom: 150px;
+.content-cards-download {
+    padding-bottom: 201px;
 }
 
 .cards {
