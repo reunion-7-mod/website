@@ -4,9 +4,9 @@
 }
 
 a {
-    color:#0066CC;
-    text-decoration:none;
-    vertical-align:baseline;
+    color: #0066CC;
+    text-decoration: none;
+    vertical-align: baseline;
 }
 
 body {
@@ -17,12 +17,11 @@ body {
     background: linear-gradient(to bottom right,#f9feff 50%,#b9d1ea) no-repeat fixed;
     justify-content: center;
     font-size: .83em;
-    overflow: hidden;
 }
 
 .body-content {
     background-color: #fff;
-    height: 100vh;
+    height: 959px;
     width: 945px;
     padding-top: 8px;
     box-shadow: -10px 0 15px rgba(0, 0, 0, 0.1), 10px 0 15px rgba(0, 0, 0, 0.1);
@@ -103,7 +102,7 @@ body {
     padding-bottom: 15px;
 }
 
-.content-cards {
+.content-cards, .content-cards-main {
     border-top: 1px solid #e4e4e4;
     margin: 0px 50px;
     margin-top: 26px;
@@ -111,6 +110,10 @@ body {
     width: 628px;
     display: flex;
     flex-direction: column;
+}
+
+.content-cards-main {
+    padding-bottom: 150px;
 }
 
 .cards {
@@ -155,7 +158,6 @@ footer {
     align-items: center;
     padding: 20px 20px;
     width: 925px;
-    position: fixed;
     bottom: 0;
 }
 
