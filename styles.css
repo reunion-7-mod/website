@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color:#0066CC;
+    text-decoration:none;
+    vertical-align:baseline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    display: flex;
+    background: linear-gradient(to bottom right,#f9feff 50%,#b9d1ea) no-repeat fixed;
+    justify-content: center;
+    font-size: .83em;
+    overflow: hidden;
+}
+
+.body-content {
+    background-color: #fff;
+    height: 100vh;
+    width: 945px;
+    padding-top: 8px;
+    box-shadow: -10px 0 15px rgba(0, 0, 0, 0.1), 10px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.top-header {
+    display: flex;
+    gap: 13px;
+    padding: 0px 20px;
+    font-size: 13px;
+    font-weight: light;
+    text-align: right;
+    justify-content: right;
+    padding-bottom: 8px;
+}
+
+.bottom-header {
+    padding: 0px 20px;
+
+}
+
+.language-header {
+    font-weight: bold;
+}
+
+.navlinks {
+    display: flex;
+    gap: 30px;
+}
+
+.navlinks a {
+    font-size: 16px;
+}
+
+.link-selected {
+    color: #000;
+}
+
+.reunion-logo {
+    padding-bottom: 14px;
+}
+
+.navbar {
+    padding-bottom: 20px;
+}
+
+.banner-content, .banner-content-download {
+    color: white;
+    padding: 0px 40px;
+    background: url(Assets/banner.svg);
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-content-download {
+    background: url(Assets/banner-downloads.svg);
+}
+
+.header-banner {
+    padding-bottom: 5px;
+}
+
+.download-button {
+    background-color: #0066CC;
+    color: #fff;
+    padding: 4px 10px;
+    border: 1px solid #fff;
+    width: fit-content;
+}
+
+.download-button:hover {
+    background-color: #5E9AF0;
+}
+
+.pg-banner {
+    padding-bottom: 15px;
+}
+
+.content-cards {
+    border-top: 1px solid #e4e4e4;
+    margin: 0px 50px;
+    margin-top: 26px;
+    padding-top: 23px;
+    width: 628px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card-header, .addons-header {
+    color: #22436C;
+    font-size: 146%;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.addons-header {
+    padding-bottom: 10px;
+}
+
+.extras {
+    margin-top: 24px;
+    width: 198px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.card-header-link {
+    color: #0099CC;
+    font-size: 105%;
+}
+
+.showcase-img {
+    padding-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    width: 925px;
+    position: fixed;
+    bottom: 0;
+}
+
+.copyright, .right-side {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.psa {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.team-logo {
+    padding-right: 20px;
+    width: 120px;
+}
+
+.real-content {
+    display: flex;
+}
+
+.list {
+    padding-left: 27px;
+}
