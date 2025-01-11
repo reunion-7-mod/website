@@ -16,15 +16,20 @@ body {
     display: flex;
     background: linear-gradient(to bottom right,#f9feff 50%,#b9d1ea) no-repeat fixed;
     justify-content: center;
+    align-items: center;
     font-size: .83em;
 }
 
-.body-content {
+.body-content, .body-content-credits {
     background-color: #fff;
     height: 959px;
     width: 945px;
     padding-top: 8px;
     box-shadow: -10px 0 15px rgba(0, 0, 0, 0.1), 10px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.body-content-credits {
+    height: 1059px;
 }
 
 .top-header {
@@ -162,6 +167,14 @@ footer {
     bottom: 0;
 }
 
+.content-padded {
+    padding: 0 20px 20px 20px;
+}
+
+.footer-404 {
+    padding-bottom: 695px;
+}
+
 .copyright, .right-side {
     display: flex;
     align-items: center;
@@ -184,4 +197,16 @@ footer {
 
 .list {
     padding-left: 27px;
+}
+
+.header-404 {
+    padding-bottom: 3px;
+}
+
+.footer-credits {
+    padding-bottom: 46px;
+}
+
+.credit-pg {
+    padding-bottom: 3px;
 }
