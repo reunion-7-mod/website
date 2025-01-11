@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Downloads | Reunion7</title>
+        <title>404 | Reunion7</title>
         <meta property="og:title" content="Reunion7">
         <meta property="og:description" content="Welcome to Reunion7, The Windows mod that aims to be 1:1 with 7.">
         <meta property="og:image" content="https://reunion7.com/Assets/seo.png">
