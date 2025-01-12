@@ -54,6 +54,7 @@ body {
 
 .navlinks {
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 
@@ -172,7 +173,7 @@ footer {
 }
 
 .footer-404 {
-    padding-bottom: 695px;
+    padding-bottom: 712px;
 }
 
 .copyright, .right-side {
