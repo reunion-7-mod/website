@@ -1,3 +1,18 @@
+/* Keyframes */
+
+@keyframes FadeIn {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+/* Universal */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +23,8 @@ a {
     text-decoration: none;
     vertical-align: baseline;
 }
+
+/* Body */
 
 body {
     margin: 0;
@@ -32,6 +49,8 @@ body {
     height: 1059px;
 }
 
+/* Headers */
+
 .top-header {
     display: flex;
     gap: 13px;
@@ -51,6 +70,8 @@ body {
 .language-header {
     font-weight: bold;
 }
+
+/* Links */
 
 .navlinks {
     display: flex;
@@ -74,6 +95,8 @@ body {
     padding-bottom: 20px;
 }
 
+/* Banners */
+
 .banner-content, .banner-content-download {
     color: white;
     padding: 0px 40px;
@@ -92,6 +115,8 @@ body {
     padding-bottom: 5px;
 }
 
+/* Downloads */
+
 .download-button {
     background-color: #0066CC;
     color: #fff;
@@ -107,6 +132,8 @@ body {
 .pg-banner {
     padding-bottom: 15px;
 }
+
+/* Cards */
 
 .content-cards, .content-cards-download {
     border-top: 1px solid #e4e4e4;
@@ -159,6 +186,8 @@ body {
     padding-bottom: 10px;
 }
 
+/* Footer */
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -210,4 +239,49 @@ footer {
 
 .credit-pg {
     padding-bottom: 3px;
+}
+
+/* Animations */
+
+/* Landing page */
+
+.banner-content,
+.banner-content *, /* Added * so the elements also get wrapped, along with the main element */
+.banner-content-download,
+.banner-content-download *,
+.real-content,
+.real-content * {
+    opacity: 0;
+    animation: FadeIn 1.5s ease-in-out 0.1s;
+    animation-fill-mode: forwards;
+}
+
+/* Darkening when hovering over a link */
+
+.navlinks a:hover, a[href="#"]:hover, a[href^="https"]:not([href*="reunion7.com"]):hover {
+    filter: brightness(50%);
+}
+
+/* Brighten site logo when hovering */
+
+.reunion-logo, .reunion-logo-footer {
+    transition: 0.3s ease-in-out;
+}
+
+.reunion-logo:hover, .reunion-logo-footer:hover {
+    filter: brightness(120%)
+}
+
+/* Download button hold animation */
+
+.download-button {
+    transition: 0.1s ease-in-out;
+}
+
+.download-button:hover {
+    transform: scale(98%)
+}
+
+.download-button:active {
+    transform: scale(95%)
 }
