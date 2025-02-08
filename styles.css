@@ -31,35 +31,22 @@ body {
     padding: 0;
     font-family: "Segoe UI", sans-serif;
     display: flex;
-    background: #DAF3FD;
+    background: linear-gradient(to bottom right,#f9feff 50%,#b9d1ea) no-repeat fixed;
     justify-content: center;
     align-items: center;
     font-size: .83em;
 }
 
-.body-content, .body-content-credits, .body-content.projects {
+.body-content, .body-content-credits {
     background-color: #fff;
+    height: 959px;
     width: 945px;
     padding-top: 8px;
     box-shadow: -10px 0 15px rgba(0, 0, 0, 0.1), 10px 0 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Body Length */
-
-.body-content { /* Default */
-    height: 959px;
-}
-
-.body-content.credits {
-    height: 1157px;
-}
-
-.body-content.changelog {
-    height: 1079px;
-}
-
-.body-content {
-    z-index: 1;
+.body-content-credits {
+    height: 1059px;
 }
 
 /* Headers */
@@ -82,25 +69,6 @@ body {
 
 .language-header {
     font-weight: bold;
-}
-
-.nav-banner {
-    background: transparent url("Assets/header.png") no-repeat scroll 0 -520px;
-    position: absolute;
-    height: 130px;
-    width: 50%;
-    top: 0;
-    margin-left: 160px;
-    z-index: -1;
-}
-
-.nav-gradient {
-    background: transparent url("Assets/gradient.png") repeat-x scroll 0 -16px;
-    position: absolute;
-    height: 130px;
-    width: 945px;
-    top: 0;
-    z-index: -2;
 }
 
 /* Links */
@@ -203,7 +171,7 @@ body {
     width: 198px;
 }
 
-.card, .project-card {
+.card {
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -214,32 +182,8 @@ body {
     font-size: 105%;
 }
 
-.project-card {
-    transition: 0.1s ease-in-out;
-}
-
-.showcase-img, .project-img {
+.showcase-img {
     padding-bottom: 10px;
-}
-
-
-/* Padding */
-
-.line-padded.region {
-    padding-bottom: 636px;
-}
-
-.line-padded.projects {
-    padding-bottom: 371px;
-}
-
-.content-padded {
-    padding: 0 20px 20px 20px;
-}
-
-.line-padded {
-    padding: 0 20px 20px 20px;
-    line-height: 25px;
 }
 
 /* Footer */
@@ -251,6 +195,10 @@ footer {
     padding: 20px 20px;
     width: 925px;
     bottom: 0;
+}
+
+.content-padded {
+    padding: 0 20px 20px 20px;
 }
 
 .footer-404 {
@@ -281,11 +229,6 @@ footer {
     padding-left: 27px;
 }
 
-.list.credit {
-    padding-top: 2px;
-    padding-bottom: 15px;
-}
-
 .header-404 {
     padding-bottom: 3px;
 }
@@ -295,39 +238,11 @@ footer {
 }
 
 .credit-pg {
-    padding-bottom: 15px;
-}
-
-.list.region {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #0000001a;
-}
-
-.content-projects {
-    padding-top: 30px;
-}
-
-/* Titles */
-
-.region-title {
-    padding-bottom: 20px;
-}
-
-.project-title {
-    color: #22436C;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 240%;
-    font-style: normal;
-    font-weight: normal;
-}
-
-.project-subtitle {
-    color: #22436C;
-    padding-bottom: 10px;
+    padding-bottom: 3px;
 }
 
 /* Animations */
+
 /* Landing page */
 
 .banner-content,
@@ -335,11 +250,7 @@ footer {
 .banner-content-download,
 .banner-content-download *,
 .real-content,
-.real-content *,
-.line-padded,
-.line-padded *,
-.footer-credits,
-.footer-credits * {
+.real-content * {
     opacity: 0;
     animation: FadeIn 1.5s ease-in-out 0.1s;
     animation-fill-mode: forwards;
@@ -373,10 +284,4 @@ footer {
 
 .download-button:active {
     transform: scale(95%)
-}
-
-/* Project-img box-shadow */
-
-.project-card:hover {
-    transform: scale(1.05);
 }
